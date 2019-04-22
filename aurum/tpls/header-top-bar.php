@@ -68,7 +68,7 @@ if ( $left_column && $right_column ) {
 			</div>
 			<?php endif; ?>
 			
-			<?php if ( $right_column ) : ?>
+			<?php ?>
 			<div class="col right">
 
 <!-- CUSTOM CODE-->
@@ -99,6 +99,11 @@ if ( $left_column && $right_column ) {
                             </ul>
                         </div>
                     </div>
+                <?php } else {?>
+
+                    <div class="log-in-a">
+                        <a href="<?php echo get_site_url() ?>/login/">Log in</a>
+                    </div>
                 <?php } ?>
 <!---->
                 <?php
@@ -118,7 +123,7 @@ if ( $left_column && $right_column ) {
 				?>
 				
 			</div>
-			<?php endif; ?>
+			<?php  ?>
 			
 		</div>
 		

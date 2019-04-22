@@ -51,10 +51,25 @@
     white-space: nowrap
 }
 
+.user-menu-drop-down li a:hover{
+    color: #0E56A4;
+}
+
 .top-menu .container{
     margin-right: 0!important;
 }
 
 .top-menu--widget{
     margin-right: 0;
+}
+
+.log-in-a a{
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 770px) {
+    .log-in-a a{
+        color: black;
+    }
 }
