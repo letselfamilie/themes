@@ -32,36 +32,41 @@
 }
 
 .user-menu-drop-down{
-    background-color: white;
-
+    background-color: rgba(255, 255, 255, 0.91);
     display: none;
     position: absolute;
     /*top:30px;*/
     right: 0;
-    padding: 5px 10px 5px 10px;
+
+    border-radius: 2px;
     /*width: 100px;*/
 }
 
 .user-menu-drop-down li{
     display: block!important;
     font-size: 15px;
-
+    text-align: left;
+    margin: 0!important;
 }
 
 .user-menu-drop-down li a{
+    padding: 5px 10px 5px 10px;
     color: black;
-    white-space: nowrap
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
 }
 
 .user-menu-drop-down li a:hover{
     color: #0E56A4;
+    /*background-color: rgba(237, 237, 237, 0.92);*/
 }
 
 .top-menu .container{
     margin-right: 0!important;
 }
 
-.top-menu .container .col , .top-menu .container .col .right{
+.top-menu .container .col , .top-menu .container .right{
     display: inline-block;
 }
 
@@ -69,9 +74,9 @@
     min-width: 50%;
 }
 
-.top-menu .container .col .right{
-    max-width: 50%;
-}
+/*.top-menu .container .right{*/
+    /*max-width: 50%;*/
+/*}*/
 
 .top-menu--widget{
     margin-right: 0;
@@ -85,5 +90,35 @@
 @media screen and (max-width: 770px) {
     .log-in-a a{
         color: black;
+    }
+
+    .top-menu .container{
+        margin-right: auto!important;
+    }
+
+    .top-menu .row{
+        display: block;
+    }
+
+    .top-menu .container .col{
+        min-width: 100%;
+    }
+
+    .top-menu .container .col , .top-menu .container .right{
+        display: block;
+        /*text-align: center!important;*/
+    }
+
+    .top-menu .container .right{
+        text-align: center;
+    }
+
+    .user-image-container{
+        float: none;
+    }
+
+    .user-menu-drop-down{
+        right: -100%;
+        /*left: auto;*/
     }
 }

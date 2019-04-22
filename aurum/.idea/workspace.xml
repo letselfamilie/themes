@@ -4,7 +4,6 @@
     <list default="true" id="f57a6194-26df-471a-ad65-da95f6179c66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpls/header-top-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpls/header-top-bar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpls/header-top-bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="52" />
+            <state relative-caret-position="437">
+              <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -53,10 +52,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="-784">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
-                <marker date="1555944231682" expanded="true" signature="1045:2096" ph="..." />
+                <marker date="1555961853661" expanded="true" signature="1045:2807" ph="..." />
               </folding>
             </state>
           </provider>
@@ -235,12 +234,12 @@
       <updated>1555923542900</updated>
       <workItem from="1555923544151" duration="354000" />
       <workItem from="1555924582055" duration="4944000" />
-      <workItem from="1555932187925" duration="8074000" />
+      <workItem from="1555932187925" duration="11880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13372000" />
+    <option name="totallyTimeSpent" value="17178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -443,17 +442,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpls/header-top-bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="52" />
+        <state relative-caret-position="437">
+          <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="-784">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
-            <marker date="1555944231682" expanded="true" signature="1045:2096" ph="..." />
+            <marker date="1555961853661" expanded="true" signature="1045:2807" ph="..." />
           </folding>
         </state>
       </provider>
