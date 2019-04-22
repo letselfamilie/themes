@@ -117,6 +117,7 @@ if ( $left_column && $right_column ) {
 					/**
 					 * Show top menu text
 					 */
+
 					if ( ! empty( $header_top_right_text ) ) {
 						aurum_show_top_menu_widget( $header_top_right_text, true );
 					}

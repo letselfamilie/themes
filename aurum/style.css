@@ -19,6 +19,8 @@
 
 .user-image-container{
     position: relative;
+    display: inline-block;
+    float: right;
 }
 
 .user-image-container img{
@@ -57,6 +59,18 @@
 
 .top-menu .container{
     margin-right: 0!important;
+}
+
+.top-menu .container .col , .top-menu .container .col .right{
+    display: inline-block;
+}
+
+.top-menu .container .col{
+    min-width: 50%;
+}
+
+.top-menu .container .col .right{
+    max-width: 50%;
 }
 
 .top-menu--widget{
