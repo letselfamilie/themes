@@ -17,7 +17,7 @@
 
 /*CUSTOM STYLES*/
 
-.user-image-container{
+.user-image-container, .log-in-a{
     position: relative;
     display: inline-block;
     float: right;
@@ -63,7 +63,7 @@
 }
 
 .top-menu .container{
-    margin-right: 0!important;
+    /*margin-right: 0!important;*/
 }
 
 .top-menu .container .col , .top-menu .container .right{
@@ -81,6 +81,7 @@
 .top-menu--widget{
     margin-right: 0;
 }
+
 
 .log-in-a a{
     color: white;
@@ -113,7 +114,7 @@
         text-align: center;
     }
 
-    .user-image-container{
+    .user-image-container, .log-in-a{
         float: none;
     }
 

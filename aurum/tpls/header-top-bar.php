@@ -94,15 +94,16 @@ if ( $left_column && $right_column ) {
 
                         <div class="user-menu-drop-down">
                             <ul>
-                                <li><a href="<?php echo get_site_url() ?>/user/<?php echo $username?>">My account</a></li>
-                                <li><a href="<?php echo get_site_url() ?>/logout/">Log out</a></li>
+                                <li><a href="<?php echo get_site_url() ?>/user/<?php echo $username?>">My Account</a></li>
+                                <li><a href="<?php echo get_site_url() ?>/logout/">Log Out</a></li>
                             </ul>
                         </div>
                     </div>
                 <?php } else {?>
 
+                    <br>
                     <div class="log-in-a">
-                        <a href="<?php echo get_site_url() ?>/login/">Log in</a>
+                        <a href="<?php echo get_site_url() ?>/login/">Log In</a>
                     </div>
                 <?php } ?>
 <!---->
