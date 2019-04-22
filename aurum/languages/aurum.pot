@@ -1,0 +1,530 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Aurum\n"
+"POT-Creation-Date: 2018-04-19 14:42+0200\n"
+"PO-Revision-Date: 2015-08-25 09:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: inc/lib/smof\n"
+"X-Poedit-SearchPathExcluded-2: inc/lib/visual-composer\n"
+"X-Poedit-SearchPathExcluded-3: inc/lib/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-4: inc/lib/laborator/laborator-demo-content-"
+"importer\n"
+"X-Poedit-SearchPathExcluded-5: style.css\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+
+#: 404.php:17
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:18
+msgid "Page not found!"
+msgstr ""
+
+#: comments.php:23
+msgid "Please do not use offensive vocabulary."
+msgstr ""
+
+#: comments.php:26
+msgid "Reply to Article"
+msgstr ""
+
+#: comments.php:26
+msgid "Share your thoughts"
+msgstr ""
+
+#: comments.php:27
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:32
+msgid "Comment"
+msgstr ""
+
+#: comments.php:34
+msgid "Message:"
+msgstr ""
+
+#: comments.php:51
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/laborator_actions.php:57
+msgid "Testimonials"
+msgstr ""
+
+#: inc/laborator_actions.php:58
+msgid "Testimonial"
+msgstr ""
+
+#: inc/laborator_actions.php:517
+msgid "New contact form message submitted."
+msgstr ""
+
+#: inc/laborator_actions.php:521
+msgid ""
+"New message has been submitted on your website contact form. IP Address:"
+msgstr ""
+
+#: inc/laborator_actions.php:528 tpls/contact.php:88
+msgid "Name"
+msgstr ""
+
+#: inc/laborator_actions.php:529 inc/laborator_functions.php:431
+msgid "Email"
+msgstr ""
+
+#: inc/laborator_actions.php:530 tpls/contact.php:108
+msgid "Phone"
+msgstr ""
+
+#: inc/laborator_actions.php:531 tpls/contact.php:93
+msgid "Subject"
+msgstr ""
+
+#: inc/laborator_actions.php:532 tpls/contact.php:115
+msgid "Message"
+msgstr ""
+
+#: inc/laborator_actions.php:544
+msgid "This email has been automatically sent from Contact Form."
+msgstr ""
+
+#: inc/laborator_filters.php:74 inc/laborator_functions.php:389
+msgid "Facebook"
+msgstr ""
+
+#: inc/laborator_filters.php:75 inc/laborator_functions.php:395
+msgid "Twitter"
+msgstr ""
+
+#: inc/laborator_filters.php:76 inc/laborator_functions.php:413
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/laborator_filters.php:77
+msgid "YouTube"
+msgstr ""
+
+#: inc/laborator_filters.php:78
+msgid "Vimeo"
+msgstr ""
+
+#: inc/laborator_filters.php:79
+msgid "Dribbble"
+msgstr ""
+
+#: inc/laborator_filters.php:80
+msgid "Instagram"
+msgstr ""
+
+#: inc/laborator_filters.php:81 inc/laborator_functions.php:419
+msgid "Pinterest"
+msgstr ""
+
+#: inc/laborator_filters.php:82 inc/laborator_functions.php:401
+msgid "Google+"
+msgstr ""
+
+#: inc/laborator_filters.php:83 inc/laborator_functions.php:425
+msgid "VKontakte"
+msgstr ""
+
+#: inc/laborator_filters.php:84
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/laborator_filters.php:85 inc/laborator_functions.php:407
+msgid "Tumblr"
+msgstr ""
+
+#: inc/laborator_filters.php:86
+msgid "RSS"
+msgstr ""
+
+#: inc/laborator_filters.php:87
+msgid "Snapchat"
+msgstr ""
+
+#: inc/laborator_filters.php:214
+#, php-format
+msgid "In reply to: <span class=\"replied-to\">%s</span>"
+msgstr ""
+
+#: inc/laborator_filters.php:226
+msgid "<span>Reply</span>"
+msgstr ""
+
+#: inc/laborator_filters.php:376
+msgid "(No title)"
+msgstr ""
+
+#: inc/laborator_functions.php:118
+msgid "&laquo; First"
+msgstr ""
+
+#: inc/laborator_functions.php:122 tpls/search-results.php:128
+msgid "Previous"
+msgstr ""
+
+#: inc/laborator_functions.php:159 tpls/search-results.php:129
+msgid "Next"
+msgstr ""
+
+#: inc/laborator_functions.php:163
+msgid "Last &raquo;"
+msgstr ""
+
+#: inc/laborator_functions.php:453
+msgid "Home"
+msgstr ""
+
+#: inc/laborator_functions.php:645
+msgid "Cart"
+msgstr ""
+
+#: inc/laborator_functions.php:771 vc_templates/vc_posts_grid.php:151
+msgid "All"
+msgstr ""
+
+#: inc/laborator_functions.php:1309
+#, php-format
+msgid "<a href=\"%1$s\" class=\"top-menu--link\">Customer Login</a>"
+msgstr ""
+
+#: inc/laborator_functions.php:1311 inc/laborator_woocommerce.php:1109
+#: inc/laborator_woocommerce.php:1118
+msgid "Login"
+msgstr ""
+
+#: inc/laborator_functions.php:1311
+msgid "or"
+msgstr ""
+
+#: inc/laborator_functions.php:1311 inc/laborator_woocommerce.php:1127
+msgid "Register"
+msgstr ""
+
+#: inc/laborator_functions.php:1314
+msgid "My Account Details"
+msgstr ""
+
+#: inc/laborator_functions.php:1328
+msgid "Cart totals:"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:265
+msgid "Share this item:"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:321
+msgid "Payment Method"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:439
+msgid "Logout"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:493
+msgid "Product ID"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:545
+#, php-format
+msgid "You've got one item in the cart"
+msgid_plural "You've got %d items in the cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/laborator_woocommerce.php:583
+msgid "Personal information and payment"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:594
+msgid "Login Here"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:594
+msgid "Returning Customers"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:665
+msgid "Include custom requirements for this order here"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:696
+msgid "out of 5"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:811
+msgid "Product added to cart!"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1060
+msgid "View full size"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1071
+msgid "Update Cart"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1075 tpls/woocommerce-mini-cart.php:79
+msgid "Checkout"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1109
+msgid "Manage your account and see your orders"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1178
+msgid "Orders"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1178
+msgid "My recent orders"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1187
+msgid "Downloads"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1187
+msgid "Available downloads for your account"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1198
+msgid "Your favorite list of products"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1234
+msgid "Free!"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1245
+msgid "Edit Account"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1245
+msgid "Change your account details"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1260
+msgid "Get the order details and notes"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1261
+msgid "Edit address information"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1262
+msgid "Forgot Password"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1263
+msgid "Name and Email"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1264
+msgid "My Addresses"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1265
+msgid "My Address"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1266
+msgid "Reset Password"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1267
+msgid "Pay Order"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1268
+msgid "You are making payment for order:"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1269 tpls/search-results.php:35
+msgid "&laquo; Go back"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1270
+msgid "Cart Empty"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1271
+msgid "Browse our products &amp; fill the cart!"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1272
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/laborator_woocommerce.php:1273
+msgid "Next &raquo;"
+msgstr ""
+
+#: single-attachment.php:35
+msgid "Description"
+msgstr ""
+
+#: single-attachment.php:40
+msgid "Caption"
+msgstr ""
+
+#: single-attachment.php:45
+msgid "Alt Text"
+msgstr ""
+
+#: single-attachment.php:49
+msgid "Date Added"
+msgstr ""
+
+#: single-attachment.php:52
+msgid "Dimensions"
+msgstr ""
+
+#: single-attachment.php:55
+msgid "Size"
+msgstr ""
+
+#: tpls/blog-post-author-info.php:34
+#, php-format
+msgid "About the author: %s"
+msgstr ""
+
+#: tpls/blog-post-author-info.php:38
+msgid "No other information about this author."
+msgstr ""
+
+#: tpls/blog-post-content.php:24
+msgid "Continue reading"
+msgstr ""
+
+#: tpls/blog-post-meta.php:18
+msgid "Posted in:"
+msgstr ""
+
+#: tpls/blog-post-meta.php:23
+msgid "Tags:"
+msgstr ""
+
+#: tpls/blog-post-share.php:13
+msgid "Share This Story On"
+msgstr ""
+
+#: tpls/blog-post-thumbnail.php:85
+msgid "Continue reading..."
+msgstr ""
+
+#: tpls/contact.php:102
+msgid "E-mail"
+msgstr ""
+
+#: tpls/header-links.php:24 tpls/header-search-form.php:13
+msgid "Search..."
+msgstr ""
+
+#: tpls/header-links.php:31
+msgid "Search"
+msgstr ""
+
+#: tpls/header-links.php:74
+msgid "Loading cart contents..."
+msgstr ""
+
+#: tpls/header-mobile.php:46
+msgid "Toggle Menu"
+msgstr ""
+
+#: tpls/search-results.php:30
+#, php-format
+msgid "%s result found for <strong>&quot;%s&quot;</strong>"
+msgid_plural "%s results found for <strong>&quot;%s&quot;</strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tpls/search-results.php:32
+#, php-format
+msgid "No search results for <strong>&quot;%s&quot;</strong>"
+msgstr ""
+
+#: tpls/woocommerce-coupon-form.php:15
+msgid "Enter Coupon"
+msgstr ""
+
+#: tpls/woocommerce-coupon-form.php:16
+msgid "To get discounts"
+msgstr ""
+
+#: tpls/woocommerce-mini-cart.php:46
+msgid "Quantity:"
+msgstr ""
+
+#: tpls/woocommerce-mini-cart.php:63
+msgid "No products in the cart."
+msgstr ""
+
+#: tpls/woocommerce-mini-cart.php:76
+msgid "View Cart"
+msgstr ""
+
+#: tpls/woocommerce-mini-cart.php:84
+msgid "Subtotal"
+msgstr ""
+
+#: vc_templates/vc_posts_grid.php:186
+msgid "Nothing found."
+msgstr ""
+
+#: vc_templates/vc_tabs.php:65
+msgid "Previous tab"
+msgstr ""
+
+#: vc_templates/vc_tabs.php:65
+msgid "Next tab"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Aurum"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.laborator.co/view-theme/aurum"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Aurum &ndash; its a minimalist WooCommerce theme that will give you and your "
+"customers a smooth shopping experience which can be used for various kinds "
+"of stores such as boutiques, bookstores, technology stores, jewelries and "
+"other types of web shops. It is beautiful, flexible and  super fast theme. "
+"You can find us on:  <a href=\"http://themeforest.net/user/laborator"
+"\">Envato</a>, <a href=\"https://twitter.com/thelaborator\">Twitter</a> or "
+"<a href=\"https://www.facebook.com/laboratorcreative\">Facebook</a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Laborator"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://laborator.co/"
+msgstr ""
