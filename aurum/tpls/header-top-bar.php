@@ -88,7 +88,7 @@ if ( $left_column && $right_column ) {
                             $(".user-menu-drop-down-custom").hide();
                         });
 
-                        $(document).unbind().on('click', '.user-image-container', function (event) {
+                        $(document).unbind().on('click', '.user-image-container img', function (event) {
                             if($('.user-menu-drop-down-custom').css('display') == 'none'){
                                 $(".user-menu-drop-down-custom").show();
                             }else{
