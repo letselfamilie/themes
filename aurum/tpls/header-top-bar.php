@@ -83,16 +83,33 @@ if ( $left_column && $right_column ) {
                     }
 
                     ?>
+                    <script>
+                        $(window).click(function () {
+                            $(".user-menu-drop-down-custom").hide();
+                        });
+
+                        $(document).unbind().on('click', '.user-image-container', function (event) {
+                            if($('.user-menu-drop-down-custom').css('display') == 'none'){
+                                $(".user-menu-drop-down-custom").show();
+                            }else{
+                                $(".user-menu-drop-down-custom").hide();
+                            }
+                            event.preventDefault();
+                            event.stopPropagation();
+                        });
+
+                    </script>
+
                     <div class="user-image-container">
-                        <a href="<?php echo get_site_url() ?>/user/<?php echo $username?>">
+<!--                        <a href="--><?php //echo get_site_url() ?><!--/user/--><?php //echo $username?><!--">-->
                             <img src="<?php echo $avatar_uri ?>"
                                  class="user-icon gavatar avatar avatar-26 um-avatar um-avatar-default" width="35"
                                  height="35"
                                  data-default="<?php echo um_get_default_avatar_uri() ?>"
                                  alt="<?php echo $username ?>">
-                        </a>
+<!--                        </a>-->
 
-                        <div class="user-menu-drop-down">
+                        <div class="user-menu-drop-down-custom">
                             <ul>
                                 <li><a href="<?php echo get_site_url() ?>/user/<?php echo $username?>">My Account</a></li>
                                 <li><a href="<?php echo get_site_url() ?>/logout/">Log Out</a></li>

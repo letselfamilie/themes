@@ -16,7 +16,9 @@ $keyword = esc_html( $s );
 
 if ( empty( $keyword ) ) {
 	wp_redirect( home_url() );
-}
+} //else {
+//    echo $keyword;
+//}
 
 get_header();
 
