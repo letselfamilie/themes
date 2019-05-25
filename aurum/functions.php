@@ -44,3 +44,36 @@ add_image_size( 'post-thumb-big', 1140, $blog_thumbnail_height, true );
 // Shop thumbs
 add_image_size( 'shop-thumb-2', 70, 90, true );
 add_image_size( 'shop-category-thumb', 320, 256, true );
+
+add_action('um_after_account_general', 'show_extra_fields', 100);
+function show_extra_fields() {
+
+    $id = um_user('ID');
+    $output = '';
+
+    $names = array( "receive_notifications");
+
+    $fields = array();
+    foreach( $names as $name )
+        $fields[ $name ] = UM()->builtin()->get_specific_field( $name );
+    $id = um_user('ID');
+    $fields = apply_filters( 'um_account_secure_fields', $fields, $id );
+
+    foreach( $fields as $key => $data )
+        $output .= UM()->fields()->edit_field( $key, $data );
+
+    echo $output;
+}
+
+function get_custom_fields( $fields ) {
+    global $ultimatemember;
+    $array=array();
+    foreach ($fields as $field ) {
+        if ( isset( UM()->builtin()->saved_fields[$field] ) ) {
+            $array[$field] = UM()->builtin()->saved_fields[$field];
+        } else if ( isset( UM()->builtin()->predefined_fields[$field] ) ) {
+            $array[$field] = UM()->builtin()->predefined_fields[$field];
+        }
+    }
+    return $array;
+}
