@@ -16,6 +16,9 @@
 */
 
 /*CUSTOM STYLES*/
+.mobile-menu .search-site{
+    display:none;
+}
 
 .user-image-container, .log-in-a{
     position: relative;
