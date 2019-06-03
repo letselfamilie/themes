@@ -51,7 +51,7 @@ function show_extra_fields() {
     $id = um_user('ID');
     $output = '';
 
-    $names = array( "receive_notifications");
+    $names = array( "receive_notifications", "chat_sound", "push_notifications");
 
     $fields = array();
     foreach( $names as $name )
