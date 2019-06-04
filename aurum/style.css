@@ -20,10 +20,18 @@
     display:none;
 }
 
-.user-image-container, .log-in-a{
+.right{
+    text-align: right;
+}
+
+.user-image-container, .col-right-item{
     position: relative;
     display: inline-block;
-    float: right;
+    /*float: right;*/
+}
+
+.log-in-a{
+    padding-right: 10px;
 }
 
 .user-image-container img{
@@ -87,13 +95,13 @@
 }
 
 
-.log-in-a a{
+.col-right-item a{
     color: white;
     font-size: 15px;
 }
 
 @media screen and (max-width: 770px) {
-    .log-in-a a{
+    .col-right-item a{
         color: black;
     }
 
@@ -118,7 +126,7 @@
         text-align: center;
     }
 
-    .user-image-container, .log-in-a{
+    .user-image-container, .col-right-item{
         float: none;
     }
 

@@ -119,8 +119,12 @@ if ( $left_column && $right_column ) {
                 <?php } else {?>
 
                     <br>
-                    <div class="log-in-a">
+                    <div class="log-in-a col-right-item">
                         <a href="<?php echo get_site_url() ?>/login/">Log In</a>
+                    </div>
+
+                    <div class="register-a col-right-item">
+                        <a href="<?php echo get_site_url() ?>/register/">Register</a>
                     </div>
                 <?php } ?>
 <!---->
